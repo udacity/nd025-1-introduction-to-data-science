@@ -49,6 +49,8 @@ The main components of the code are as follows:
 - Data Inspection: The shape of the DataFrame is checked to ensure it has the expected number of rows and columns.
 - Missing Values: The code identifies columns with no missing values and those with a significant amount of missing data.
 - Value Counts: The code calculates the counts for various categorical columns, such as Professional, FormalEducation, Country, and EmploymentStatus.
+- Data check: it's important to be aware of columns that contain mixed data types, as they can lead to unexpected behavior during data processing also checking for missing data.
+- DataFrame Chunk Display Utility: This function displays a Pandas DataFrame in chunks of a specified number of rows and columns. By default, it shows 3 rows and 5 columns at a time. 
 - Visualization:
    1- Bar charts are created for categorical data using the plot() method.
    2- A combined bar chart for salary and salary expectations is generated, with values displayed on top of the bars.
